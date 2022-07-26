@@ -1,0 +1,4 @@
+mvn test // will run all test
+mvn test -Dcucumber.filter.tags="@address" // will run all Scenarios annotated with @address
+
+
