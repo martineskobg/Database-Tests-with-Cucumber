@@ -18,7 +18,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertNotNull;
 
-public class CustomerSteps {
+public class CustomerAndAddressSteps {
 
     private static final CustomerDaoImpl customerDao = new CustomerDaoImpl();
     private static final AddressDaoImpl addressDao = new AddressDaoImpl();

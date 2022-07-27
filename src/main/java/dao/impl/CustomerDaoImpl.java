@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class CustomerDaoImpl implements Dao<Customer>, Queries {
+public class CustomerDaoImpl implements Dao<Customer>{
     Customer customer;
     private PreparedStatement preparedStatement;
     private final Connection conn;

@@ -1,8 +1,7 @@
 package dao.impl;
 
-import dao.AddressDao;
+import dao.Dao;
 import entity.AddressPojo;
-import entity.CustomerPojo;
 import helpers.connections.DBFactoryConnection;
 import helpers.queries.Queries;
 import org.apache.commons.dbutils.QueryRunner;
@@ -15,7 +14,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-public class AddressDaoImpl implements AddressDao, Queries {
+public class AddressDaoImpl implements Dao {
     private PreparedStatement preparedStatement;
     private final Connection conn;
 
